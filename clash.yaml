@@ -22,9 +22,9 @@ dns:
     geoip: true
     geoip-code: CN
 proxies:
-  - name: HK-01
+  - name: US-01
     type: vless
-    server: 103.143.81.250
+    server: 143.246.57.96
     port: 443
     uuid: 740d802e-955a-4e87-8568-e9c203e07299
     network: ws
@@ -38,7 +38,7 @@ proxies:
         Host: xml.yrl.ccwu.cc
   - name: US-02
     type: vless
-    server: 103.11.77.104
+    server: 143.246.61.8
     port: 443
     uuid: 740d802e-955a-4e87-8568-e9c203e07299
     network: ws
@@ -50,247 +50,9 @@ proxies:
       path: /
       headers:
         Host: xml.yrl.ccwu.cc
-  - name: HK-03
+  - name: US-03
     type: vless
-    server: 103.213.4.77
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: SG-04
-    type: vless
-    server: 103.195.188.192
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: HK-05
-    type: vless
-    server: 103.190.232.236
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: US-06
-    type: vless
-    server: 103.11.78.25
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: HK-07
-    type: vless
-    server: 103.193.172.196
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: HK-08
-    type: vless
-    server: 103.192.179.132
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: CA-09
-    type: vless
-    server: 103.214.69.7
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: HK-10
-    type: vless
-    server: 103.101.0.73
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: HK-11
-    type: vless
-    server: 103.190.233.25
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: HK-12
-    type: vless
-    server: 103.143.81.178
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: PL-13
-    type: vless
-    server: 103.167.234.26
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: TH-14
-    type: vless
-    server: 103.224.84.70
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: GB-15
-    type: vless
-    server: 104.248.164.212
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: GB-16
-    type: vless
-    server: 104.248.173.190
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: NL-17
-    type: vless
-    server: 104.248.193.241
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: DE-18
-    type: vless
-    server: 104.248.249.73
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: DE-19
-    type: vless
-    server: 104.248.242.82
-    port: 443
-    uuid: 740d802e-955a-4e87-8568-e9c203e07299
-    network: ws
-    tls: true
-    udp: true
-    servername: xml.yrl.ccwu.cc
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: xml.yrl.ccwu.cc
-  - name: DE-20
-    type: vless
-    server: 104.248.25.208
+    server: 103.11.76.162
     port: 443
     uuid: 740d802e-955a-4e87-8568-e9c203e07299
     network: ws
@@ -309,26 +71,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - HK-01
+      - US-01
       - US-02
-      - HK-03
-      - SG-04
-      - HK-05
-      - US-06
-      - HK-07
-      - HK-08
-      - CA-09
-      - HK-10
-      - HK-11
-      - HK-12
-      - PL-13
-      - TH-14
-      - GB-15
-      - GB-16
-      - NL-17
-      - DE-18
-      - DE-19
-      - DE-20
+      - US-03
   - name: FINAL
     type: select
     proxies:
